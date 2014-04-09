@@ -60,20 +60,23 @@ INSTRUCCIONES DE USO
 
 * Copiar configura-cliente-puppet.pp al equipo que queremos configurar
 
-* Aplicar la configuración:
+* Aplicar la configuración:  
 
-  puppet apply configura-cliente-puppet.pp
+  puppet apply configura-cliente-puppet.pp  
+
+
 -------------------------------------------------------------------------------------------------------------
 
 
 NOTA
 -------------------------------------------------------------------------------------------------------------
 
-Podemos usar este archivo para configurar cualquier cliente, con tan sólo cambiar el siguiente recurso:
+Podemos usar este archivo para configurar cualquier cliente, con tan sólo cambiar el siguiente recurso:  
+  
 file { "/etc/escuela2.0": content => "use=workstation",}  
+
+
 -------------------------------------------------------------------------------------------------------------
-
-
 
 Creado por:  
 Esteban M. Navas Martín  
