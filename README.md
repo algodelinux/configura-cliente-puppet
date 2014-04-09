@@ -1,0 +1,2 @@
+configura-cliente-puppet
+========================
