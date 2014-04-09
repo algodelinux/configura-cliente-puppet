@@ -73,7 +73,7 @@ Podemos usar este archivo para configurar cualquier cliente, con tan sólo cambi
 
 file { "/etc/escuela2.0":
    content => "use=workstation",
-}
+   }
 -------------------------------------------------------------------------------------------------------------
 
 
